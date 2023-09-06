@@ -8,6 +8,9 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --primary-title-color: #0B0223;
+}
 body{
     font-family: 'Work Sans', sans-serif;
 }
@@ -25,6 +28,12 @@ a{
 }
 .flex{
     display: flex;
+}
+.sec-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 /* header section styles stats here */
@@ -49,13 +58,10 @@ a{
 .navbar-title{
     font-size: 2.75rem;
     font-weight: 700;
-    color: #0B0223;
+    color: var(--primary-title-color);
 }
 .letter-color{
     background-image: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
 }
 .navbar-links{
     width: 50%;
@@ -84,22 +90,52 @@ a{
 /* navbar section styles ends here */
 
 /* banner section styles starts here */
-.banner{
-    justify-content: space-between;
-}
-.banner-text-content{
-    border: 1px solid blue;
-}
-.banner-image{
-    border: 1px solid green;
-}
-.banner-section-main-wrapper{
+.banner-sec-main-wrapper{
     border: 5px solid purple;
     background-image: url(../images/group-14.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 45% auto;
 }
+.banner{
+    justify-content: space-between;
+}
+.banner-text-content{
+    border: 1px solid blue;
+    width: 50%;
+}
+.banner-text-content p{
+    color: var(--primary-title-color);
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-text-content ul{
+    margin: 24px 0 41px;
+}
+.banner-text-content li{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 17px;
+    
+}
+.banner-text-content li:last-child{
+    margin-bottom: 0;
+}
+.banner-list-icon{
+    margin-right: 12px;
+}
+.banner-title{
+    font-size: 5.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.banner-image{
+    border: 1px solid green;
+    width: 50%;
+}
+
 /* banner section styles ends here */
 
 /* header section styles ends here */
