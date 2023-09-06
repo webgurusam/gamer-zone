@@ -29,6 +29,7 @@ a{
 
 /* header section styles stats here */
 
+/* navbar section styles starts here */
 .header{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -80,6 +81,26 @@ a{
     margin-right: 16px;
     max-height: 24px;
 }
+/* navbar section styles ends here */
+
+/* banner section styles starts here */
+.banner{
+    justify-content: space-between;
+}
+.banner-text-content{
+    border: 1px solid blue;
+}
+.banner-image{
+    border: 1px solid green;
+}
+.banner-section-main-wrapper{
+    border: 5px solid purple;
+    background-image: url(../images/group-14.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 45% auto;
+}
+/* banner section styles ends here */
 
 /* header section styles ends here */
 
