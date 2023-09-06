@@ -9,6 +9,23 @@
         flex-wrap: wrap;
     }
     /* header section styles ends here */
+
+    /* banner section styles starts here */
+    .banner-sec-main-wrapper{
+        background-position: left bottom;
+        background-size: 100% 696px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-text-content, .banner-image{
+        width: 100%;
+    }
+    .banner-text-content{
+        padding: 130px 0 165px 25%;
+        margin: 24px 0 36px;
+    }
+    /* banner section styles ends here */
 }
 
 
@@ -36,4 +53,21 @@
         margin-top: 36px;
     }
     /* header section styles ends here */
+
+    /* banner section styles starts here */
+    .banner-sec-main-wrapper{
+        background-position: left bottom;
+        background-size: 423px 696px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-text-content, .banner-image{
+        width: 100%;
+    }
+    .banner-text-content{
+        padding: 130px 0 165px 30px;
+        margin: 24px 0 36px;
+    }
+    /* banner section styles ends here */
 }
