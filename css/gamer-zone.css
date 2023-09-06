@@ -11,18 +11,74 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
-
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 .container{
     border: 1px solid red;
     min-height: 80px;
     max-width: 1440px;
     margin: 0 auto;
 }
+.flex{
+    display: flex;
+}
 
 /* header section styles stats here */
 
 .header{
-    border: 1px solid blue;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav{
+    padding: 38px 0 39px;
+}
+.navbar-logo{
+    width: 50%;
+    gap: 20px;
+    align-items: center;
+}
+.logo{
+    width: 86px;
+    height: 40px;
+}
+.navbar-title{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+.letter-color{
+    background-image: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.navbar-links{
+    width: 50%;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar-links li a, .follow-us span{
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.follow-us{
+    padding: 17px 24px 18px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    align-items: center;
+}
+.follow-us span{
+    margin-right: 24px;
+}
+.follow-us .youtube{
+    margin-right: 16px;
+    max-height: 24px;
 }
 
 /* header section styles ends here */

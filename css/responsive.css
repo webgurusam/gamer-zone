@@ -1,0 +1,26 @@
+
+/* responsive styles for mobile devices */
+@media screen and (max-width: 425px) {
+    /* header section styles starts here */
+    .header{
+        box-shadow: none;
+    }
+    .nav{
+        flex-direction: column;
+        padding: 100px 0 75px;
+    }
+    .navbar-logo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    .navbar-links {
+        width: 100%;
+        flex-direction: column;
+        gap: 36px;
+    }
+    .follow-us{
+        margin-top: 36px;
+    }
+    /* header section styles ends here */
+}
