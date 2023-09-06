@@ -1,11 +1,14 @@
 
 /* responsive styles for tablet devices */
 @media screen and (min-width: 425px) and (max-width: 768px){
-    .navbar-links {
+    /* header section styles starts here */
+    .navbar-logo, .navbar-links {
         justify-content: center;
+    }
+    .navbar-links {
         flex-wrap: wrap;
     }
-    
+    /* header section styles ends here */
 }
 
 
