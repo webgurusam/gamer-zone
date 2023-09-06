@@ -1,0 +1,36 @@
+/* worksans fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* common styles */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    border: 1px solid red;
+    min-height: 80px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header section styles stats here */
+
+.header{
+    border: 1px solid blue;
+}
+
+/* header section styles ends here */
+
+
+
+
+
+
+
+
