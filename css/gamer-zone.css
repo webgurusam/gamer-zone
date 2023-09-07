@@ -11,9 +11,15 @@
 :root{
     --primary-title-color: #0B0223;
     --primary-linear-gradient: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    --title-font-size: 3rem;
+    --primary-text-size: 1.25rem;
+    --primary-text-color: #534C64;
 }
 body{
     font-family: 'Work Sans', sans-serif;
+}
+img{
+    width: 100%;
 }
 li{
     list-style: none;
@@ -32,6 +38,9 @@ button{
 }
 .flex{
     display: flex;
+}
+.center{
+    text-align: center;
 }
 .sec-title{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -115,7 +124,7 @@ button{
 }
 .banner-text-content p{
     color: var(--primary-title-color);
-    font-size: 3rem;
+    font-size: var(--title-font-size);
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -164,10 +173,75 @@ button{
 
 /* header section styles ends here */
 
+/* main section styles starts here */
+
+/* online games section styles starts here */
+
+.online-games{
+    margin: 120px auto;
+}
+.online-games h2{
+    color: var(--primary-title-color);
+    font-size: var(--title-font-size);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.online-games p{
+    color: var(--primary-text-color);
+    font-size: var(--primary-text-size);
+}
+.online-games-content{
+    margin-top: 48px;
+    gap: 24px;
+}
+.single-online-game{
+    width: 342px;
+}
+.single-online-game:hover > .play-video > .watch-now{
+    opacity: 1;
+}
+.single-online-game:hover > .play-video {
+    border-color: #FF42A5;
+}
+.play-video{
+    position: relative;
+    margin-bottom: 24px;
+    border: 4px solid transparent;
+    border-radius: 16px;
+}
+.play-video img{
+    display: block;
+}
+.watch-now{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.60);
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .5s ease;
+    cursor: pointer;
+}
+.watch-now .fa-circle-play{
+    font-size: 48px;
+    margin: 0 0 0;
+    color: #FFF;
+}
+.watch-now span{
+    font-size: var(--primary-text-size);
+    font-weight: 600;
+    background: var(--primary-linear-gradient);
+    -webkit-background-clip: text;
+}
 
 
+/* online games section styles ends here */
 
-
-
-
+/* main section styles ends here */
 

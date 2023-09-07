@@ -26,6 +26,25 @@
         margin: 24px 0 36px;
     }
     /* banner section styles ends here */
+
+    /* main section styles starts here */
+
+    /* online games section styles starts here */
+
+    .online-games-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+    }
+    .single-online-game{
+        text-align: center;
+    }
+
+    /* online games section styles ends here */
+
+    /* main section styles ends here */
+    
 }
 
 
@@ -70,4 +89,30 @@
         margin: 24px 0 36px;
     }
     /* banner section styles ends here */
+
+    /* main section styles starts here */
+
+    /* online games section styles starts here */
+    .online-games{
+        margin: 160px 0 95px;
+        padding: 0 5px;
+    }
+    .online-games p{
+        padding: 0 10px;
+    }
+    .online-games-content{
+        flex-direction: column;
+        gap: 55px;
+        margin-top: 81px;
+    }
+    .single-online-game{
+        width: 100%;
+        text-align: center;
+    }
+    .play-video{
+        margin-bottom: 33px;
+    }
+    /* online games section styles ends here */
+
+    /* main section styles ends here */
 }
