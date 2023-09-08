@@ -43,6 +43,24 @@
 
     /* online games section styles ends here */
 
+    /* game link section styles start here */
+
+    .games-link{
+        row-gap: 61px;
+        padding: 132px 3px 161px;
+        flex-wrap: nowrap;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .single-game-link{
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 10px 7px;
+        text-align: center;
+    }
+
+    /* game link section styles ends here */
+
     /* main section styles ends here */
     
 }
@@ -113,6 +131,22 @@
         margin-bottom: 33px;
     }
     /* online games section styles ends here */
+
+    /* game link section styles start here */
+    .games-link{
+        row-gap: 61px;
+        padding: 132px 3px 161px;
+        flex-wrap: nowrap;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .single-game-link{
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 10px 7px;
+        text-align: center;
+    }
+    /* game link section styles ends here */
 
     /* main section styles ends here */
 }

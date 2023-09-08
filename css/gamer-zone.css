@@ -237,11 +237,52 @@ button{
     font-size: var(--primary-text-size);
     font-weight: 600;
     background: var(--primary-linear-gradient);
+    background-clip: text;
     -webkit-background-clip: text;
 }
 
 
 /* online games section styles ends here */
+
+/* games link section styles start here */
+
+.games-link{
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 27px;
+    row-gap: 28px;
+    padding: 120px 0 118px;
+}
+.single-game-link{
+    align-items: center;
+    gap: 16px;
+    padding: 10px 20px 10px 10px;
+    border: 1.5px solid transparent;
+    border-radius: 50px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.single-game-link:hover{
+    border-color: #FF42A5;
+}
+.single-game-link p{
+    color: var(--primary-title-color);
+    font-size: var(--primary-text-size);
+    font-weight: 600;
+}
+.single-game-link:hover p{
+    background: var(--primary-linear-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.single-game-link img{
+    width: 60px;
+    height: 60px;
+}
+
+
+/* games link section styles ends here */
 
 /* main section styles ends here */
 
