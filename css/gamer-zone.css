@@ -31,7 +31,6 @@ button{
     cursor: pointer;
 }
 .container{
-    border: 1px solid red;
     min-height: 80px;
     max-width: 1440px;
     margin: 0 auto;
@@ -63,7 +62,7 @@ button{
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .nav{
-    padding: 38px 0 39px;
+    padding: 38px 5px 39px;
 }
 .navbar-logo{
     width: 50%;
@@ -118,6 +117,7 @@ button{
 .banner{
     justify-content: space-between;
     align-items: center;
+    padding: 0 5px;
 }
 .banner-text-content{
     width: 50%;
@@ -180,13 +180,13 @@ button{
 .online-games{
     margin: 120px auto;
 }
-.online-games h2{
+.online-games h2, .play-instantly-text-content h2{
     color: var(--primary-title-color);
     font-size: var(--title-font-size);
     font-weight: 700;
     margin-bottom: 16px;
 }
-.online-games p{
+.online-games p, .play-instantly-text-content p{
     color: var(--primary-text-color);
     font-size: var(--primary-text-size);
 }
@@ -244,6 +244,38 @@ button{
 
 /* online games section styles ends here */
 
+/* play instantly section styles starts here */
+
+.play-instantly{
+    padding-left: 166px;
+    align-items: center;
+}
+.play-instantly-text-content{
+    width: 50%;
+    text-align: right;
+    padding-right: 265px;
+}
+.play-instantly-text-content h2{
+    margin-bottom: 24px;
+}
+.play-instantly-image{
+    position: relative;
+}
+.play-instantly-image img:first-child{
+    width: 635px;
+    height: 650px;
+}
+#overlay-image{
+    width: 318px;
+    height: 365px;
+    position: absolute;
+    top: 56%;
+    bottom: 0;
+    left: -25%;
+}
+
+/* play instantly section styles ends here */
+
 /* games link section styles start here */
 
 .games-link{
@@ -251,7 +283,7 @@ button{
     justify-content: center;
     column-gap: 27px;
     row-gap: 28px;
-    padding: 120px 0 118px;
+    padding: 195px 0 118px;
 }
 .single-game-link{
     align-items: center;

@@ -43,11 +43,37 @@
 
     /* online games section styles ends here */
 
+    /* play instantly section styles starts here */
+    
+    .play-instantly{
+        flex-direction: column;
+        padding: 0 3px;
+        align-items: flex-end;
+    }
+    .play-instantly-text-content{
+        text-align: center;
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 75px;
+    }
+    .play-instantly-image{
+        right: 1%;
+    }
+    .play-instantly-image img:first-child{
+        width: 100%;
+    }
+    #overlay-image{
+        left: -18%;
+        width: 45%;
+    }
+
+    /* play instantly section styles ends here */
+
     /* game link section styles start here */
 
     .games-link{
         row-gap: 61px;
-        padding: 132px 3px 161px;
+        padding: 185px 3px 161px;
         flex-wrap: nowrap;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -142,10 +168,35 @@
     }
     /* online games section styles ends here */
 
+    /* play instantly section styles starts here */
+    .play-instantly{
+        flex-direction: column;
+        padding: 0 3px;
+        align-items: flex-end;
+    }
+    .play-instantly-text-content{
+        text-align: center;
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 75px;
+    }
+    .play-instantly-image img:first-child{
+        width: 90%;
+        position: relative;
+        right: -10%;
+    }
+    #overlay-image{
+        left: 2%;
+        width: 40%;
+        height: 50%;
+    }
+
+    /* play instantly section styles ends here */
+
     /* game link section styles start here */
     .games-link{
         row-gap: 61px;
-        padding: 132px 3px 161px;
+        padding: 185px 3px 161px;
         flex-wrap: nowrap;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
