@@ -34,7 +34,6 @@
     .online-games-content{
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
         row-gap: 50px;
     }
     .single-online-game{
